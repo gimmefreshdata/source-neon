@@ -1,6 +1,6 @@
 node {
     stage 'configure'
-        def archiveUrl = 'https://www.dropbox.com/s/1glr69yu015iqc1/NEON.zip?dl=1'
+        def archiveUrl = 'https://www.dropbox.com/s/mw1f7raej6b0mtp/NEON.zip?dl=1'
 
     stage 'import'
         sh "wget --no-cache --quiet https://raw.githubusercontent.com/gimmefreshdata/archive-importer/master/archives.groovy -O archives.groovy"
